@@ -64,4 +64,4 @@ vali_steps = len(vali_data_loader.dataset) // BATCH_SIZE
 ###############  MODEL BUILDING  #################
 ##################################################
 ### making Lenet model
-model = Lenet()
+model = Lenet(numChannels=1)
